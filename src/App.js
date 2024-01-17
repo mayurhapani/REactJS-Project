@@ -1,8 +1,14 @@
-import Main from "./PR1/Main";
+import PR1 from "./PR1/PR1";
+import PR2 from "./PR2/PR2";
 import "./App.css";
 
 function App() {
-  return <Main />;
+  return (
+    <>
+      <PR1 />
+      <PR2 />
+    </>
+  );
 }
 
 export default App;

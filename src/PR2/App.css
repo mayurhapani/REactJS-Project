@@ -1,0 +1,56 @@
+.pro2Body {
+  background-color: #24262b;
+}
+
+.counterBody {
+  height: 100dvh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counterTitle {
+  margin-bottom: 5rem;
+  color: greenyellow;
+  font-size: 48px;
+}
+
+button {
+  margin: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  background: #1e1e1e;
+  cursor: pointer;
+  color: greenyellow;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+}
+
+button:hover {
+  animation: a 0.5s 1 linear;
+}
+
+@keyframes a {
+  0% {
+    transform: scale(0.9, 1.1);
+  }
+
+  25% {
+    transform: scale(1.1, 0.9);
+  }
+
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+
+  75% {
+    transform: scale(1.1, 0.9);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
